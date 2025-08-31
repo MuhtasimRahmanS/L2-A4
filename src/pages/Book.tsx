@@ -46,14 +46,14 @@ export default function BooksPage() {
 
                 {/* Edit */}
                 <Button
-                  
+                  variant="secondary"
                   onClick={() => navigate(`/edit-book/${book._id}`)}
                 >
                   Edit
                 </Button>
 
                 {/* Borrow */}
-                <Button onClick={() => navigate(`/borrow/${book._id}`)}>
+                <Button variant="secondary" onClick={() => navigate(`/borrow/${book._id}`)}>
                   Borrow
                 </Button>
 

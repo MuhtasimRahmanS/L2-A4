@@ -37,7 +37,7 @@ export default function BorrowPage() {
             <Label htmlFor="dueDate">Due Date</Label>
             <Input id="dueDate" name="dueDate" type="date" required />
           </div>
-          <Button disabled={isLoading} type="submit" className="w-full">Borrow</Button>
+          <Button variant="secondary"  disabled={isLoading} type="submit" className="w-full">Borrow</Button>
         </form>
       </CardContent>
     </Card>

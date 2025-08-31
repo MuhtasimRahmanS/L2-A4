@@ -119,7 +119,7 @@ export default function EditBookPage() {
               <Label>Available</Label>
             </div>
 
-            <Button type="submit" disabled={isLoading} className="w-full">
+            <Button variant="secondary" type="submit" disabled={isLoading} className="w-full">
               {isLoading ? "Saving..." : "💾 Save Changes"}
             </Button>
           </form>

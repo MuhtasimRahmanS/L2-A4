@@ -107,7 +107,7 @@ export default function CreateBookPage() {
             </div>
 
             {/* Submit */}
-            <Button disabled={isLoading} className="w-full">
+            <Button variant="secondary" disabled={isLoading} className="w-full">
               {isLoading ? "Creating..." : "Create Book"}
             </Button>
           </form>
